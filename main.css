@@ -69,6 +69,7 @@ table {
     margin:  25px auto;
     font-family: Roboto, sans-serif;
     font-size: 1rem;
+    min-width: 79px;
 }
 
 .btn:hover {
@@ -82,7 +83,14 @@ table {
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
+    line-height: 0;
+    max-width: 960px;
 }
 
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
 
 
